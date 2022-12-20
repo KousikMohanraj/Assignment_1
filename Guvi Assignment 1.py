@@ -43,7 +43,7 @@ if int(user_ip) == 3:
     else:
         print("User Not Exist in the System Pls Register yourself")
 
-if int(user_ip) or (user not in List1) == 1:
+if int(user_ip) == 1 or (user not in List1) :
     email = input("Enter Your Email: ")
 
     if(re.fullmatch(User_Reg, email)):
