@@ -17,6 +17,7 @@ Email_valid = ''
 Pwrd_valid = ''
 Email_Flag = False
 Pwrd_Flag = False
+List1=[]
 
 
 # Make a regular expression
